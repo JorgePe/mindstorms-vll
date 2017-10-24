@@ -8,9 +8,6 @@ from time import sleep
 FTDI_SN = 'A105BPAX'      # Serial Number of the FTDI device, see dmesg
 DIRECTION = 0xFF          # all output
 
-# Bit masks for each pin
-#OUT0 = 0x01               # TXD
-
 def chksum(n):
     return 7-((n+(n>>2)+(n>>4))&7)
 
@@ -64,9 +61,6 @@ def vllstop():
     bb.port = 1
     sleep(0.12)
 
-#    bb.port = 0
-
-
 
 def send(command):
     vllstart()
@@ -99,31 +93,5 @@ while True:
     send(MS_FWD)
     send(MS_REV)
 
-#     send(CP_C)
-#     cp_pause()
-#     send(CP_CSHARP)
-#     cp_pause()
-#     send(CP_D)
-#     cp_pause()
-#     send(CP_DSHARP)
-#     cp_pause()
-#     send(CP_E)
-#     cp_pause()
-#     send(CP_F)
-#     cp_pause()
-#     send(CP_FSHARP)
-#     cp_pause()
-#     send(CP_G)
-#     cp_pause()
-#     send(CP_GSHARP)
-#     cp_pause()
-#     send(CP_A)
-#     cp_pause()
-#     send(CP_ASHARP)
-#     cp_pause()
-#     send(CP_B)
-#     cp_pause()
-#     send(CP_C_HI)
-#     cp_pause()
 
 
