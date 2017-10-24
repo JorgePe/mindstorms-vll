@@ -14,7 +14,8 @@ Since the EV3 can also control a light, I decided to use it to control the Code 
 
 In ev3dev configure the output port to led mode and use the 'vll-outa.py' script
 
-(to document)
+(still to document)
+
 2. EV3 status LED
 
 3. USB FTDI adapter in bitbang mode and a LED (works with ev3dev, linux laptop and Raspberry Pi, probably also with Windows and OSX)
@@ -23,3 +24,5 @@ In ev3dev configure the output port to led mode and use the 'vll-outa.py' script
 
 5. Raspberry Pi and a LED conencted to a GPIO pin
 
+
+An interesting discovery: altough the LEGO optical fiber (~21L length) is can barelly work, a TOSLink optical fiber (1.2 meters or 4 feet) works fine.
