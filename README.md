@@ -10,14 +10,21 @@ The RCX SDK included the details of the VLL language and it was possible to use 
 
 Since the EV3 can also control a light, I decided to use it to control the Code Pilot and the MicroScout. After first success I tryed other methods.
 
-1. EV3 output port with NXT-RCX adapter and Power Functions Light
+# Methods:
+
+## 1. EV3 output port with NXT-RCX adapter and Power Functions Light
 
 In ev3dev configure the output port to led mode and use the 'vll-outa.py' script
 
-(still to document)
 
-2. EV3 status LED
+## 2. EV3 status LED
 
+This is merely a curiousity since its totally unpractical but nevertheless it was a nice find: the EV3 status LEDs generate enough bright to control a MicroScout if you use a TOSlink fiber optic cable (unfortunately the 21L LEGO optic fiber isn't usable, perhaps a smaller LEGO fiber optic can work?)
+
+In ev3dev just run the 'vll-ev3led.py' script, it sends VLL commands through the LEFT LED.
+
+
+Still to document:
 3. USB FTDI adapter in bitbang mode and a LED (works with ev3dev, linux laptop and Raspberry Pi, probably also with Windows and OSX)
 
 4. Arduino (NodeMCU) and a LED connected to a GPIO pin
