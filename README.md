@@ -29,7 +29,8 @@ In ev3dev just run the 'vll-ev3led.py' script, it sends VLL commands through the
 Get an USB FTDI adapter like the Sparkfun FT232R Breakout Board and connect a LED and a resistor between GND and TXD, then use the 'vllftdi.py' script. You need to cread a udev rule or run your script as root / with sudo.
 
 
-Still to document:
+
+## Still to document:
 
 4. Arduino (NodeMCU) and a LED connected to a GPIO pin
 
