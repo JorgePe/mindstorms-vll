@@ -38,7 +38,7 @@ Get an USB FTDI adapter like the Sparkfun FT232R Breakout Board and connect a LE
 
 
 # Examples:
-'vll-atat-py' is a python script to control a MicroScout with the EV3 LEFT/RIGT/UP buttons. Here a video showing it controlling an AT-AT from the 9574 Dard Side Devoloper Kit: https://youtu.be/tdrDTqwzdbI
+'vll-atat-py' is a python script to control a MicroScout with the EV3 LEFT/RIGT/UP buttons. Here a video showing it controlling an AT-AT from the 9754 Dard Side Devoloper Kit: https://youtu.be/tdrDTqwzdbI
 
 
 # Notes:
