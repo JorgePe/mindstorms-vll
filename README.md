@@ -37,4 +37,9 @@ Get an USB FTDI adapter like the Sparkfun FT232R Breakout Board and connect a LE
 5. Raspberry Pi and a LED conencted to a GPIO pin
 
 
+# Examples:
+'vll-atat-py' is a python script to control a MicroScout with the EV3 LEFT/RIGT/UP buttons. Here a video showing it controlling an AT-AT from the 9574 Dard Side Devoloper Kit: https://youtu.be/tdrDTqwzdbI
+
+
+# Notes:
 An interesting discovery: although the LEGO optical fiber (~21L length) barelly works, a TOSLink optical fiber (1.2 meters or 4 feet) works fine, allowing better distances. And it connects very well to LEGO bricks.
