@@ -38,8 +38,10 @@ Get an USB FTDI adapter like the Sparkfun FT232R Breakout Board and connect a LE
 
 
 # Examples:
-'vll-atat-py' is a python script to control a MicroScout with the EV3 LEFT/RIGT/UP buttons. Here a video showing it controlling an AT-AT from the 9754 Dard Side Devoloper Kit: https://youtu.be/tdrDTqwzdbI
+'vll-atat-py' is a python script to control a MicroScout with the EV3 LEFT/RIGT/UP buttons. Here a video showing it controlling an AT-AT from the 9754 Dark Side Devoloper Kit: https://youtu.be/tdrDTqwzdbI
 
+Kevin Walters wrote an excellent tutorial on Adafruit site on using a Feather M0 Bluefruit LE to control a MicroScout droid:
+https://learn.adafruit.com/bluetooth-remote-for-lego-droid
 
 # Notes:
 An interesting discovery: although the LEGO optical fiber (~21L length) barelly works, a TOSLink optical fiber (1.2 meters or 4 feet) works fine, allowing better distances. And it connects very well to LEGO bricks.
